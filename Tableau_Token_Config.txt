@@ -1,0 +1,76 @@
+{
+
+   "server1":{
+      "token_name":"<token_name>",
+      "token_value":"<token_value>",
+      "tableau_server":"https://ts3.comcast.com/",
+      "site_name":"MI2",
+      "workbooks_viewnames":{
+         "Disco_Weekly_trending2":[
+            "Disco Weekly Trending",
+            "HSD Full Disconnects",
+	    "HSD Downgrades",
+            "Video Full Disconnects",
+            "Video Downgrades"
+         ],
+         "HSD and TV Net Adds":[
+            "HSI - Dashboard",
+            "HSI"
+         ]
+      }
+   },
+
+   
+   "server2":{
+      "token_name":"<token_name>",
+      "token_value":"<token_value>",
+      "tableau_server":"https://ts3.comcast.com/",
+      "site_name":"RDK",
+      "workbooks_viewnames":{
+         "OctaneExecutionMetrics":[
+	    "RDKB_Test_ExecutionMetrics"
+         ]
+      }
+   },
+
+
+"server3":{
+      "token_name":"<token_name>",
+      "token_value":"<token_value>",
+      "tableau_server":"https://ts3.comcast.com/",
+      "site_name":"SPA",
+      "workbooks_viewnames":{
+         "Competitive Footprint Summary Dashboard":[
+	    "Cover",
+	    "Division View",
+	    "Region View",
+	    "WpL"	
+         ],
+	 "BBMV Carriers Report":[
+	    "BBMV Scorecard",
+	    "BBMV Carriers Report",
+	    "Speed Tier Dashboard",
+	    "BBMV QoQ View"	
+         ]
+      }
+   },
+
+
+  "server4":{
+      "token_name":"<token_name>",
+      "token_value":"<token_value>",
+      "tableau_server":"https://xcsdata.comcast.com/",
+      "site_name":"",
+      "workbooks_viewnames":{
+         "xFi Complete/Unlimited Monthly Summary Report":[
+	    "xFi Complete/Unlimited Daily Report"
+         ]
+      },
+      "Filters":{
+        "IE/Non-IE": "Non-IE",
+        "Division": "CENTRAL DIVISION,WEST DIVISION"
+      }
+   }
+
+
+}
